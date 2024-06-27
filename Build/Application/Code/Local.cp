@@ -47,10 +47,7 @@
 // UNIX includes
 //struct pthread_rwlock_t;
 //struct pthread_rwlockattr_t;
-extern "C"
-{
-#	include <errno.h>
-}
+#include <errno.h>
 #include <fcntl.h>
 #include <grp.h>
 #include <netdb.h>

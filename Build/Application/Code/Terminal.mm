@@ -52,10 +52,7 @@
 #import <vector>
 
 // UNIX includes
-extern "C"
-{
-#	include <errno.h>
-}
+#include <errno.h>
 #include <pthread.h>
 
 // Mac includes
