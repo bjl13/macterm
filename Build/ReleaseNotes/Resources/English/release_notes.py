@@ -24,7 +24,8 @@ version_lineage = [
 ]
 
 daily_build_lineage = [
-    '20230102',
+    '20240627',
+    '20231008',
     '20221230',
     '20221129',
     '20221127',
@@ -624,7 +625,11 @@ daily_build_lineage = [
 ]
 
 notes_by_version = {
-    '20230102': [
+    '20240627': [
+        'Internal changes.',
+    ],
+    '20231008': [
+        'Fix clipping of Format preview.',
     ],
     '20221230': [
         'Fix “Find Cursor”.',
