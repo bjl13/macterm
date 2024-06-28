@@ -21,10 +21,18 @@ except:
     prog = x.tb_frame.f_code.co_filename
     dir = os.path.dirname(prog)
 
-# IMPORTANT: textile must now be installed separately,
-# e.g. using "pip3 install textile" where the module
-# is then found in the default search path of "python3"
-import textile
+try:
+    import textile
+except ModuleNotFoundError as e:
+    # although the command will fail, make this even more obvious
+    # by showing debug information in the generated HTML output
+    print("""
+<p>ERROR: Generation failed.
+<p>The textile module must now be installed separately,
+e.g. using <tt>pip3 install textile</tt> where the module
+is then found in the default search path of <tt>python3</tt>.
+""")
+    raise e
 
 if __name__ == '__main__':
     if len(sys.argv) < 2: raise KeyError('not enough arguments')

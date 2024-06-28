@@ -116,7 +116,7 @@ build-%:
 	$(MAKE) -f $(MAKEFILE_LIST) install-images-$*
 	$(MAKE) -f $(MAKEFILE_LIST) install-stylesheets-$*
 	$(MAKE) -f $(MAKEFILE_LIST) "$(strip $(APP_HELP_CONTENTS_ROOT))"/Info.plist
-	perl -pi -e 's/LAST_UPDATED/$(shell date +"%A, %B %d, %Y, %H:%M %Z")/' \
+	perl -pi -e 's/{last_updated}/$(shell date +"%A, %B %d, %Y, %H:%M %Z")/' \
 		"$(strip $(APP_HELP_LOCALIZED))/index.html"
 	$(end_target)
 

@@ -641,24 +641,24 @@ The possible substitutions are:
 
 table(deftable).
 (def). |_<(key). Code|_<(desc). Meaning|
-(def). |<(key). @\\@|(desc)<. backslash (@\@)|
-(def). |<(key). @\0nn@|(desc)<. arbitrary ASCII in octal[1]; e.g. @\004@ is @^D@|
-(def). |<(key). @\1nn@|(desc)<. arbitrary ASCII in octal[1]; e.g. @\177@ is delete|
-(def). |<(key). @\b@|(desc)<. backspace (equivalent to @\010@)|
-(def). |<(key). @\e@|(desc)<. escape (@^[@; equivalent to @\033@)|
-(def). |<(key). @\i@|(desc)<. substitute network address[2] of computer|
-(def). |<(key). @\I@|(desc)<. substitute space-separated list of all network addresses[2] of computer|
-(def). |<(key). @\j@|(desc)<. substitute terminal's current text selection[3], replacing all new-lines with spaces (to join into one line)|
-(def). |<(key). @\n@|(desc)<. new-line sequence for current session: either CR, CR-LF, CR-NULL or LF|
-(def). |<(key). @\q@|(desc)<. substitute terminal's current text selection[3], stripping all new-lines and quoting (inserting backslashes before every space or tab)|
-(def). |<(key). @\r@|(desc)<. carriage return (@^M@; equivalent to @\015@)|
-(def). |<(key). @\s@|(desc)<. substitute terminal's current text selection[3], verbatim (even keeping new-lines)|
-(def). |<(key). @\t@|(desc)<. horizontal tab|
-(def). |<(key). @\.@|(desc)<. substitute text from Clipboard[4] at this point, as if Paste had been used; each line (except last) is followed by new-line sequence for current session: either CR, CR-LF, CF-NULL or LF|
-(def). |<(key). @\:@|(desc)<. substitute text from Clipboard[4] at this point, replacing all new-lines with spaces (to join into one line)|
-(def). |<(key). @\|@|(desc)<. substitute number of terminal columns|
-(def). |<(key). @\#@|(desc)<. substitute number of terminal lines|
-(def). |<(key). @\"@|(desc)<. quote; allowed for legacy reasons but no longer needs escaping|
+(def). |<(key). @\\@|<(desc). backslash (@\@)|
+(def). |<(key). @\0nn@|<(desc). arbitrary ASCII in octal[1]; e.g. @\004@ is @^D@|
+(def). |<(key). @\1nn@|<(desc). arbitrary ASCII in octal[1]; e.g. @\177@ is delete|
+(def). |<(key). @\b@|<(desc). backspace (equivalent to @\010@)|
+(def). |<(key). @\e@|<(desc). escape (@^[@; equivalent to @\033@)|
+(def). |<(key). @\i@|<(desc). substitute network address[2] of computer|
+(def). |<(key). @\I@|<(desc). substitute space-separated list of all network addresses[2] of computer|
+(def). |<(key). @\j@|<(desc). substitute terminal's current text selection[3], replacing all new-lines with spaces (to join into one line)|
+(def). |<(key). @\n@|<(desc). new-line sequence for current session: either CR, CR-LF, CR-NULL or LF|
+(def). |<(key). @\q@|<(desc). substitute terminal's current text selection[3], stripping all new-lines and quoting (inserting backslashes before every space or tab)|
+(def). |<(key). @\r@|<(desc). carriage return (@^M@; equivalent to @\015@)|
+(def). |<(key). @\s@|<(desc). substitute terminal's current text selection[3], verbatim (even keeping new-lines)|
+(def). |<(key). @\t@|<(desc). horizontal tab|
+(def). |<(key). @\.@|<(desc). substitute text from Clipboard[4] at this point, as if Paste had been used; each line (except last) is followed by new-line sequence for current session: either CR, CR-LF, CF-NULL or LF|
+(def). |<(key). @\:@|<(desc). substitute text from Clipboard[4] at this point, replacing all new-lines with spaces (to join into one line)|
+(def). |<(key). @\|@|<(desc). substitute number of terminal columns|
+(def). |<(key). @\#@|<(desc). substitute number of terminal lines|
+(def). |<(key). @\"@|<(desc). quote; allowed for legacy reasons but no longer needs escaping|
 
 fn1. To see the octal versions of all ASCII characters,
  look at <a href="x-man-page://ascii">x-man-page://ascii</a> (opens a

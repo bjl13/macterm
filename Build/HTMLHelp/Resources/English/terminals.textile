@@ -141,19 +141,19 @@ MacTerm locally recognizes certain key sequences, many of which
 
 table(deftable).
 (def). |_<(key). Key or Sequence|_<(desc). Effect|
-(def). |<(key). ⏎ (Return)|(desc)<. send text from command line and then send the current session's new-line sequence; in addition, the command is captured to the history list if the command was sent without using intermediate actions such as Tab|
-(def). |<(key). ⌘⏎ (Return)|(desc)<. send text from command line but DO NOT send any new-line sequence|
-(def). |<(key). Tab|(desc)<. send text from command line and then send a tab character (@\011@)|
-(def). |<(key). ⇧-Tab|(desc)<. standard system command for changing keyboard focus in Command Line window (backwards)|
-(def). |<(key). ⌫ (Delete)|(desc)<. if the Command Line field is empty, immediately send a backspace or delete character, depending on session settings (no new-line); otherwise, locally erase one character in the Command Line field|
-(def). |<(key). ⎋ (Escape)|(desc)<. immediately send an escape character (no new-line); useful for controlling the editor mode in "vim"|
-(def). |<(key). ⌘L|(desc)<. show the Command Line window, or switch focus to it if another window is focused|
-(def). |<(key). ⌘W|(desc)<. hide the Command Line window if it has keyboard focus|
-(def). |<(key). ⌘~|(desc)<. switch focus to another window, including to/from a terminal window|
-(def). |<(key). ⇣ (down-arrow)|(desc)<. show list of previously-entered command lines|
-(def). |<(key). @⌃D@|(desc)<. send text from command line and then send end-of-file (@\004@); for most commands, this terminates multi-line input or output; in many shells, this is interpreted as "show completions" or even "log out"|
-(def). |<(key). @⌃L@|(desc)<. immediately send a control-L character (no new-line); this usually causes the terminal screen to clear; any command-line text entered so far is preserved|
-(def). |<(key). others|(desc)<. standard system editing short-cuts for movement, deletion, selection, etc. are supported; any other text is entered into the field directly|
+(def). |<(key). ⏎ (Return)|<(desc). send text from command line and then send the current session's new-line sequence; in addition, the command is captured to the history list if the command was sent without using intermediate actions such as Tab|
+(def). |<(key). ⌘⏎ (Return)|<(desc). send text from command line but DO NOT send any new-line sequence|
+(def). |<(key). Tab|<(desc). send text from command line and then send a tab character (@\011@)|
+(def). |<(key). ⇧-Tab|<(desc). standard system command for changing keyboard focus in Command Line window (backwards)|
+(def). |<(key). ⌫ (Delete)|<(desc). if the Command Line field is empty, immediately send a backspace or delete character, depending on session settings (no new-line); otherwise, locally erase one character in the Command Line field|
+(def). |<(key). ⎋ (Escape)|<(desc). immediately send an escape character (no new-line); useful for controlling the editor mode in "vim"|
+(def). |<(key). ⌘L|<(desc). show the Command Line window, or switch focus to it if another window is focused|
+(def). |<(key). ⌘W|<(desc). hide the Command Line window if it has keyboard focus|
+(def). |<(key). ⌘~|<(desc). switch focus to another window, including to/from a terminal window|
+(def). |<(key). ⇣ (down-arrow)|<(desc). show list of previously-entered command lines|
+(def). |<(key). @⌃D@|<(desc). send text from command line and then send end-of-file (@\004@); for most commands, this terminates multi-line input or output; in many shells, this is interpreted as "show completions" or even "log out"|
+(def). |<(key). @⌃L@|<(desc). immediately send a control-L character (no new-line); this usually causes the terminal screen to clear; any command-line text entered so far is preserved|
+(def). |<(key). others|<(desc). standard system editing short-cuts for movement, deletion, selection, etc. are supported; any other text is entered into the field directly|
 
 The font and colors of the command line are read from your
  Default Format settings when the window is first displayed.

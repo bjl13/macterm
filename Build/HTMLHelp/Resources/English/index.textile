@@ -94,4 +94,4 @@ notextile. </tr>
 
 notextile. </table>
 
-p(#lastupdated). Last updated LAST_UPDATED.
+p(#lastupdated). Last updated {last_updated}.
