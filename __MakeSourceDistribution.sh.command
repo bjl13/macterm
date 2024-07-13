@@ -52,7 +52,7 @@ directory=sourceMacTerm${version}
 target=$root/${directory}.tar.gz
 
 # create archive
-$git archive --format=tar.gz --prefix="$directory/" master > "$target"
+$git archive --format=tar.gz --prefix="$directory/" main > "$target"
 
 $date "+Finished creating source tarball at %T."
 
