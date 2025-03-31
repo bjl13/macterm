@@ -1,0 +1,8 @@
+{
+  "index.enabled" : true,
+  "index.symbolicate" : true,
+  "workspace.art_style" : 1,
+  "workspace.color" : 9,
+  "workspace.name" : "Macterm",
+  "workspace.preview_root" : "."
+}
