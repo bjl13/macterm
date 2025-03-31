@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/PrintPreview-master.dia",
+    "emit-module-dependencies" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/PrintPreview-master-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/PrintPreview-master-emit-module.dia",
+    "swift-dependencies" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/PrintPreview-master.swiftdeps"
+  },
+  "/Volumes/BJLdata/Macterm/macterm/Build/PrintPreview/Code/MainEntryPoint.swift" : {
+    "const-values" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.swiftconstvalues",
+    "dependencies" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.d",
+    "diagnostics" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.dia",
+    "index-unit-output-path" : "/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.o",
+    "llvm-bc" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.bc",
+    "object" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.o",
+    "swift-dependencies" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint.swiftdeps",
+    "swiftmodule" : "/Volumes/BJLdata/Macterm/macterm/Build/_Generated/PrintPreview.build/ForDebugging/PrintPreview.build/Objects-normal/arm64/MainEntryPoint~partial.swiftmodule"
+  }
+}
