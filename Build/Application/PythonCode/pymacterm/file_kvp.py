@@ -15,9 +15,9 @@ Parser -- class to translate key-value-pair syntax into Python data
 
 """
 
-__author__ = 'Kevin Grant <kmg@mac.com>'
-__date__ = '13 April 2009'
-__version__ = '4.0.0'
+__author__ = 'Kevin Grant <kmg@mac.com>; edited and updated by Brian London <dev@bjl13.com>'
+__date__ = '30 Mar 2025'
+__version__ = '4.1.0'
 
 class Parser(object):
     """Read key-value-pair syntax and translate it into Python data.

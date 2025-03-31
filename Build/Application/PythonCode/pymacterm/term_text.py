@@ -7,9 +7,9 @@ get_dumb_rendering -- string to describe a Unicode character in a dumb terminal
 
 """
 
-__author__ = 'Kevin Grant <kmg@mac.com>'
-__date__ = '28 November 2010'
-__version__ = '4.0.0'
+__author__ = 'Kevin Grant <kmg@mac.com>; edited and updated by Brian London <dev@bjl13.com>'
+__date__ = '30 Mar 2025'
+__version__ = '4.1.0'
 
 import string
 

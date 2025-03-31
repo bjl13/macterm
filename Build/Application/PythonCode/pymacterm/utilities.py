@@ -14,9 +14,9 @@ import sys
 
 _sys_version_info = sys.version_info
 
-__author__ = 'Kevin Grant <kmg@mac.com>'
-__date__ = '30 December 2006'
-__version__ = '4.0.0'
+__author__ = 'Kevin Grant <kmg@mac.com>; edited and updated by Brian London <dev@bjl13.com>'
+__date__ = '30 Mar 2025'
+__version__ = '4.1.0'
 
 def bytearray_to_str(a_bytearray, encoding='UTF-8'):
     """bytearray_to_str(a_bytearray) -> string

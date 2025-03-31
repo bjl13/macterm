@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
-<!--
-	PreferencesSearch.plist
-	
-	MacTerm
-	© 1998-2024 by Kevin Grant
-	
-	This file is used to implement the search field in the Preferences window.
-	As such, the keyword strings can be localized (an attempt is made to find a
-	translation from "PreferencesSearch.strings" in the usual bundle search
-	paths).  Nothing else in this file should be localized.
-	
-	The search phrases in this file are case-insensitive and in English.  There
-	don't tend to be a lot of variations on words because a future version may
-	attempt to do "fuzzy" matching by itself (e.g. considering synonyms and
-	alternate spellings).
-	
-	Data in this file is keyed by internal panel identifier.  These identifiers
-	can be seen in panel source code by looking for "panelIdentifier" methods,
-	and they are strings like "net.macterm.prefpanels.Formats.General".  An
-	identifier will refer to either a specific tab or a whole top-level panel.
-	
-	Panel identifiers map to arrays.  Currently arrays must contain only strings,
-	listing all phrases that can cause the identified panel to be included in
-	search results.
-	
-	Phrases are not necessarily scanned in order.  For ease of maintenance the
-	phrases are listed alphabetically for each panel and the definitions for all
-	of a category's tabs are all together.
--->
-
 <plist version="1.0">
 <dict>
 	<key>net.macterm.prefpanels.Formats.General</key>
 	<array>
 		<string>blink</string>
 		<string>bold</string>
-		<string>border</string>
 		<string>character</string>
 		<string>color</string>
 		<string>contrast</string>

@@ -13,8 +13,9 @@ definitely nice when users don't need an installer or administrator privileges.
 
 """
 
-__author__ = "Kevin Grant <kmg@mac.com>"
-__date__ = "2 September 2006"
+__author__ = "Kevin Grant <kmg@mac.com>; edited and updated by Brian London <dev@bjl13.com>
+__date__ = "30 Mar 2025"
+__version__ = '5.0.0a'
 
 import subprocess
 import sys
@@ -33,11 +34,11 @@ if __name__ == "__main__":
     CONTENTS_DIR = path_join(MACOS_DIR, "..")
     BUNDLE_DIR = path_join(CONTENTS_DIR, "..")
     FRAMEWORKS_DIR = path_join(CONTENTS_DIR, "Frameworks")
-    #RESOURCES_DIR = path_join(CONTENTS_DIR, "Resources")
+    RESOURCES_DIR = path_join(CONTENTS_DIR, "Resources")
 
     # the PyMacTerm.framework code is not compiled, so its version
     # will depend only on whatever the current implementation is
-    PYMACTERM_PYLIB_VER = "3.9"
+    PYMACTERM_PYLIB_VER = "3.13"
     PYMACTERM_DIR = path_join(FRAMEWORKS_DIR, "PyMacTerm.framework")
     PYMACTERM_VERSIONS_DIR = path_join(PYMACTERM_DIR, "Versions")
     PYMACTERM_CURRENT_DIR = path_join(PYMACTERM_VERSIONS_DIR, "Current")
@@ -71,8 +72,8 @@ if __name__ == "__main__":
     # default.  (If a future macOS version stops supporting Python 2.6, it
     # will once again be necessary to have separate SWIG-generated wrappers for
     # each incompatible Python version.)
-    DEFAULT_QUILLS_FW_VER = "B"
-    DEFAULT_QUILLS_PYLIB_VER = "3.9"
+    DEFAULT_QUILLS_FW_VER = "A"
+    DEFAULT_QUILLS_PYLIB_VER = "3.13"
     DEFAULT_WRAPPER = "MacTerm_python%s_wrap" % DEFAULT_QUILLS_PYLIB_VER
     if MAC_OS_NAME in ("Sequoia", "Sonoma", "Ventura", "Monterey",
                        "Big Sur", "Catalina"):

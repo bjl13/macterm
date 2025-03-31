@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -98,7 +98,8 @@
 		20286C28FDCF999611CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					8D0C4E890486CD37000505A6 = {
 						ProvisioningStyle = Manual;
@@ -185,6 +186,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PrefsConverter/Resources/PrefsConverter-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				PRODUCT_BUNDLE_IDENTIFIER = net.macterm.helpers.PrefsConverter;
 				PRODUCT_NAME = PrefsConverter;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -219,6 +221,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "PrefsConverter/Resources/PrefsConverter-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				PRODUCT_BUNDLE_IDENTIFIER = net.macterm.helpers.PrefsConverter;
 				PRODUCT_NAME = PrefsConverter;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -231,6 +234,7 @@
 			baseConfigurationReference = 0AA19F511D88F44C00FD70FF /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -272,6 +276,7 @@
 			baseConfigurationReference = 0AA19F521D88F44C00FD70FF /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;

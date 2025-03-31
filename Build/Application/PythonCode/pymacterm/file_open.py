@@ -9,9 +9,9 @@ session -- start a Session according to a ".session" key-value-pair file
 
 """
 
-__author__ = 'Kevin Grant <kmg@mac.com>'
-__date__ = '1 January 2008'
-__version__ = '4.0.0'
+__author__ = 'Kevin Grant <kmg@mac.com>; edited and updated by Brian London <dev@bjl13.com>'
+__date__ = '30 Mar 2025'
+__version__ = '4.1.0'
 
 from . import file_kvp
 # note: Quills is a compiled module, library path must be set properly
